@@ -31,7 +31,7 @@ function randomNumber(min,max) {
         while (is_exist > -1);
     }
 
-    //sortowanie wygenerowanych licz w kolejności rosnącej
+    //sortowanie wygenerowanych liczb w kolejności rosnącej
     for(j = 0; j < how_many_number - 1; j++)
         for(i = 0; i < how_many_number - 1; i++)
             if(random_number[i] > random_number[i + 1])
